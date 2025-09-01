@@ -135,9 +135,13 @@ Example configuration:
 
 Example training log:
 ```
+Epoch   0 | Cost 0.1265 | Train 97.38% | Test 96.71% | LR 1.00e-03                                                                                        
 Epoch   5 | Cost 0.0910 | Train 99.46% | Test 97.80% | LR 1.00e-03
-Epoch  10 | Cost 0.0523 | Train 99.72% | Test 98.05% | LR 1.00e-03
-Epoch  15 | Cost 0.0401 | Train 99.85% | Test 98.15% | LR 1.00e-03
+Epoch  10 | Cost 0.0033 | Train 99.58% | Test 98.11% | LR 1.00e-03
+Epoch  15 | Cost 0.0085 | Train 99.78% | Test 98.25% | LR 1.00e-03
+Epoch  20 | Cost 0.0137 | Train 99.50% | Test 97.75% | LR 1.00e-03
+Epoch  25 | Cost 0.0029 | Train 99.91% | Test 98.13% | LR 1.00e-03
+Early stopping triggered. Restoring best parameters.
 ```
 
 ## Learning Notes
